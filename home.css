@@ -1,0 +1,105 @@
+body{
+	background-image: url('img/Homescreen.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+}
+.menu{
+	background-color: #222224;
+	height: 55px;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.menu h1{
+	font-size: 20px;
+	font-family: arial;
+	color: white;
+	line-height: 80px;
+	padding-left: 40px;
+}
+.submenu{
+	position: relative;
+	width: 100%;
+	height: 23%;
+	left: 0%;
+	top: -10%;
+	text-align: center;
+}
+.submenu ul li{
+	text-decoration: none;
+	list-style-type: none;
+}
+.submenu li{
+	display: inline;
+	margin:10px;
+	color: white;
+ 	text-decoration: none;
+ 	float: right;
+ 	border: 1px solid white;
+}
+.submenu a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+}
+@keyframes text{
+	0%{
+		color:transparent;
+		margin-top: 40px;
+	}
+	100%{
+		color: white;
+	}
+	
+}
+.page{
+	padding-top: 50px;
+	padding-left: 100px;
+	font-size: 150px;
+	text-align: center;
+	width: 85%;
+	height: 40%;
+	font-family: sans-serif;
+	letter-spacing: 3px;
+	position: relative;
+	margin-bottom: 100px;
+	animation-name: text;
+	animation-duration: 2s ;
+	animation-timing-function: ease-out;
+}
+
+.page1 {
+	width: 98.4%;
+	height: 30%;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 30px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.page1.is-visible{
+	opacity: 1;
+}
+.page1_detail{
+	width: 70%;
+	height: 100%;
+	border-right: 1px solid white;
+	float: left;
+}
+.page1_detail h1{
+	font-size: 30px;
+	color:rgba(255,255,255,1);
+	margin-bottom: 10px;
+}
+.page1_detail p{
+	font-size: 20px;
+	text-align: left;
+	color:rgba(255,255,255,1);
+}
+.footer{
+	width: 100%;
+	height: 40%;
+	background-color: rgba();
+}
